@@ -6,8 +6,14 @@ const packageInfo = require( '../../package.json' );
 export default {
 	entry: 'src/index.js',
 	format: 'es6',
+	external: [
+		'bemquery-core'
+	],
+	globals: {
+		'bemquery-core': 'bemquery'
+	},
 	sourceMap: true,
 	plugins: [ nodeResolve(), convertCJS() ],
 	banner: `/*! BEMQuery v${packageInfo.version} | (c) ${new Date().getFullYear()} BEMQuery | MIT license (see LICENSE) */`,
-	dest: 'dist/bemquery-package-boilerplate.js'
+	dest: 'dist/bemquery-dom-events.js'
 };

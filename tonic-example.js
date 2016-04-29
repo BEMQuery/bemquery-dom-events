@@ -1,4 +1,6 @@
 require( 'bemquery-selector-engine/package.json' );
+require( 'bemquery-core/pacakge.json' );
+require( 'bemquery-dom-events/package.json' );
 
 var fs = require( 'fs' ),
     url = require( 'url' ),
@@ -6,7 +8,7 @@ var fs = require( 'fs' ),
 
 exports.tonicEndpoint = function( request, response ) {
     const package = url.parse( request.url, true ).query.package;
-    
+
 	response.end( fs.readFileSync( require.resolve( 'bemquery-' + package ) ) );
 };
 
@@ -20,8 +22,10 @@ exports.tonicEndpoint = function( request, response ) {
 		</head>
 		<body>
 			<p>Example</p>
-			
-            <script src="${endpoint}?package="></script>
+
+            <script src="${endpoint}?package=selector-engine"></script>
+            <script src="${endpoint}?package=core"></script>
+            <script src="${endpoint}?package=dom-events"></script>
 			<script>
 
 			</script>
