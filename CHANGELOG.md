@@ -6,3 +6,4 @@
 
 * First working version, yay!
 * Added `BEMQuery.prototype.on` and `BEMQuery.prototype.off`.
+* Added `ListenersStorage` class.
