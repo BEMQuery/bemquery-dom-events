@@ -2,6 +2,11 @@
 
 ---
 
+## 0.1.0
+
+* Updated dependencies.
+* Changed module to work with [bemquery-selector-converter module](https://github.com/BEMQuery/bemquery-selector-converter).
+
 ## 0.0.1
 
 * First working version, yay!
