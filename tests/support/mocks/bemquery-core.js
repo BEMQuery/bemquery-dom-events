@@ -4,13 +4,13 @@ class BEMQuery {
 	constructor( elements ) {
 		this.elements = elements;
 
-		this.selectorEngine = {
-			converter: {
-				convert() {
-					return BEMQuery.converter;
-				}
+		this.converter = {
+			convert() {
+				return BEMQuery.converter;
 			}
 		};
+
+		this.selectorEngine = {};
 	}
 }
 

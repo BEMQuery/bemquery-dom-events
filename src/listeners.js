@@ -33,7 +33,7 @@ BEMQuery.prototype.on = function( type, selector, callback ) {
 			throw new TypeError( 'Callback must be a function.' );
 		}
 
-		selector = this.selectorEngine.converter.convert( selector ).CSS;
+		selector = this.converter.convert( selector ).CSS;
 		selector = `${selector}, ${selector} *`;
 
 		listener = ( evt ) => {
@@ -84,7 +84,7 @@ BEMQuery.prototype.off = function( type, selector, callback ) {
 			throw new TypeError( 'Callback must be a function.' );
 		}
 
-		selector = this.selectorEngine.converter.convert( selector ).CSS;
+		selector = this.converter.convert( selector ).CSS;
 		selector = `${selector}, ${selector} *`;
 	} else {
 		listener = selector;
