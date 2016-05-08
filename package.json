@@ -1,9 +1,9 @@
 {
-  "name": "bemquery-package-boilerplate",
+  "name": "bemquery-dom-events",
   "version": "0.0.0",
-  "description": "BEMQuery",
-  "main": "dist/bemquery-package-boilerplate.umd.js",
-  "jsnext:main": "dist/bemquery-package-boilerplate.js",
+  "description": "BEMQuery dom events module",
+  "main": "dist/bemquery-dom-events.umd.js",
+  "jsnext:main": "dist/bemquery-dom-events.js",
   "scripts": {
     "lint": "eslint -c config/eslint/default.json src/**/*.js tests/**/*.js",
     "pretest": "npm run lint",
@@ -20,11 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BEMQuery/bemquery-package-boilerplate.git"
+    "url": "git+https://github.com/BEMQuery/bemquery-dom-events.git"
   },
   "keywords": [
     "BEM",
-    "BEMQuery"
+    "BEMQuery",
+    "DOM",
+    "events"
   ],
   "files": [
     "dist",
@@ -36,9 +38,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BEMQuery/bemquery-package-boilerplate/issues"
+    "url": "https://github.com/BEMQuery/bemquery-dom-events/issues"
   },
-  "homepage": "https://github.com/BEMQuery/bemquery-package-boilerplate#readme",
+  "homepage": "https://github.com/BEMQuery/bemquery-dom-events#readme",
   "tonicExampleFilename": "tonic-example.js",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^1.1.1",
