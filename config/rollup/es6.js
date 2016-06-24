@@ -6,6 +6,12 @@ const packageInfo = require( '../../package.json' );
 export default {
 	entry: 'src/index.js',
 	format: 'es',
+	external: [
+		'bemquery-core'
+	],
+	globals: {
+		'bemquery-core': 'bemquery'
+	},
 	sourceMap: true,
 	plugins: [
 		nodeResolve( {
