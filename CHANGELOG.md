@@ -2,6 +2,13 @@
 
 ---
 
+## 0.1.1
+
+* Fixed issues with building.
+* Updated rollup configuration.
+* Updated dependencies.
+* Fixed wrong project name in documentation.
+
 ## 0.1.0
 
 * Updated dependencies.
