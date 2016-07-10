@@ -1,6 +1,6 @@
 {
   "name": "bemquery-dom-events",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "BEMQuery dom events module",
   "main": "dist/bemquery-dom-events.umd.js",
   "jsnext:main": "dist/bemquery-dom-events.js",
