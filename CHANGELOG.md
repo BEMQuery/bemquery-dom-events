@@ -2,6 +2,10 @@
 
 ---
 
+## 0.1.4
+
+* Fixed broken build.
+
 ## 0.1.3
 
 * Updated boilerplate.
