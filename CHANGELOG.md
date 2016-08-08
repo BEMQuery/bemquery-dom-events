@@ -2,7 +2,12 @@
 
 ---
 
-# 0.1.2
+## 0.1.3
+
+* Updated boilerplate.
+* Fixed changelog.
+
+## 0.1.2
 
 * Updated CI configuration.
 * Updated dependencies.
