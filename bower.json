@@ -1,7 +1,7 @@
 {
-  "name": "bemquery-package-boilerplate",
-  "description": "BEMQuery",
-  "main": "dist/bemquery-package-boilerplate.umd.js",
+  "name": "bemquery-dom-events",
+  "description": "BEMQuery dom events module",
+  "main": "dist/bemquery-dom-events.umd.js",
   "authors": [
       {
         "name": "BEMQuery team",
@@ -13,7 +13,7 @@
     "BEM",
     "BEMQuery"
   ],
-  "homepage": "https://github.com/BEMQuery/bemquery-package-boilerplate",
+  "homepage": "https://github.com/BEMQuery/bemquery-dom-events",
   "ignore": [
       "**/.*",
       "node_modules",
