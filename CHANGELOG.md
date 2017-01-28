@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 ---
 
+## [0.1.6] – 2017-01-27
+### Added
+* Minification of ES6 code using [Babili](https://github.com/babel/babili).
+
 ## [0.1.5] – 2016-09-17
 ### Added
 * Ability to install package via [Bower](https://bower.io/).
@@ -45,6 +49,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * Added `BEMQuery.prototype.on` and `BEMQuery.prototype.off`.
 * Added `ListenersStorage` class.
 
+[0.1.6]: https://github.com/BEMQuery/bemquery-dom-events/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/BEMQuery/bemquery-dom-events/compare/v0.1.4...v0.1.5
 [0.1.4]: https://github.com/BEMQuery/bemquery-dom-events/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/BEMQuery/bemquery-dom-events/compare/v0.1.2...v0.1.3
